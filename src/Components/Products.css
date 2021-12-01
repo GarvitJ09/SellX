@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.flex-box {
+  flex-grow: 1;
+  width: 33%;
+  height: auto;
+}
+.flex-column {
+  display: grid;
+  grid-auto-flow: column;
+  margin: 10px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  row-gap: 50px;
+}
+.flex-row {
+  display: grid;
+  grid-auto-flow: row;
+}
+ul li {
+  list-style-type: none;
+}
+.logo {
+  font-size: xx-large;
+}
+.img-detail {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+.img-responsive {
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+}
+.search-products {
+  margin: 20px;
+  font-size: large;
+  width: 400px;
+  height: 30px;
+  border: 2px solid yellowgreen;
+  border-radius: 5px;
+}
